@@ -1,0 +1,14 @@
+{
+  "name": "logger",
+  "version": "0.0.0",
+  "description": "A simple Node.js logger",
+  "main": "logger.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node --verbose spec"
+  },
+  "author": "Erez Nagar <erez.nagar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
