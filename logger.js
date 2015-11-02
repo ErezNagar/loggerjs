@@ -1,5 +1,5 @@
 /*
-* Logger
+* Loggerjs
 *
 * Copyright (c) 2015 Erez Nagar (erez.nagar@gmail.com)
 * Licensed under the MIT license.
