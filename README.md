@@ -54,9 +54,9 @@ logger = logger.create({
 Loggerjs outputs `[DATE] [TIME] [Category] LEVEL logMessage`
 
 * `logger.levels.LEVEL`
-All logger level constants:
 
-`logger.levels.ERROR`, `logger.levels.WARN`, `logger.levels.INFO`, `logger.levels.DEBUG`, `logger.levels.TRACE`, 
+All logger level constants:
+`logger.levels.ERROR`, `logger.levels.WARN`, `logger.levels.INFO`, `logger.levels.DEBUG`, `logger.levels.TRACE`.
 
 * `setLevel(level)` Default: `logger.levels.ERROR`
 Disables all logging below the given level.
