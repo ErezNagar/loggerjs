@@ -227,9 +227,6 @@
 	// Package-level API
 	// ----------
 
-	// TODO: move levels to be apart of the object.
-	// if isntance to the module (on require) is not kept, which it shouldnt usually, then levels constants are gone.
-	
 	var logger = {};
 	logger.levels = {"TRACE": LEVELS[0], "DEBUG": LEVELS[1], "INFO": LEVELS[2], "WARN": LEVELS[3], "ERROR": LEVELS[4]};
 	logger.create = function(options){
