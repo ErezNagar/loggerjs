@@ -74,6 +74,7 @@ logger.info("INFO log messages would be ignored");
 `options` - An optional options object with the following attributes:
 
 `showDate` - Boolean indicating whether to show current date in log or not.
+
 `showTime` - Boolean indicating whether to show current time in log or not.
 
 If no options are passed, `showDate` and `showTime` are set to false.
