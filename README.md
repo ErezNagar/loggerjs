@@ -59,8 +59,8 @@ All logger level constants:
 `logger.levels.ERROR`, `logger.levels.WARN`, `logger.levels.INFO`, `logger.levels.DEBUG`, `logger.levels.TRACE`.
 
 * `setLevel(level)` Default: `logger.levels.ERROR`
-Disables all logging below the given level.
 
+Disables all logging below the given level.
 `level` - one of the logging levels.
 ```javascript
 logger.setLevel(logger.levels.WARN);
@@ -72,8 +72,8 @@ logger.info("INFO log messages would be ignored");
 * `showDateTime([options])`
 
 `options` - An optional options object with the following attributes:
-`showDate` - Boolean indicating whether to show current date in log or not.
 
+`showDate` - Boolean indicating whether to show current date in log or not.
 `showTime` - Boolean indicating whether to show current time in log or not.
 
 If no options are passed, `showDate` and `showTime` are set to false.
