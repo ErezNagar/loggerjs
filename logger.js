@@ -8,11 +8,16 @@
 (function (root, logger) {
     if (typeof module === "object" && module.exports) {
         module.exports = logger();
-    } else if (typeof define === "function" && typeof define.amd === "object") {
-        define(logger);
-    } else {
-        root.Logger = logger();
     }
+    /* 
+    * Currently not in use
+    * 
+    * else if (typeof define === "function" && typeof define.amd === "object") {
+    *    define(logger);
+    * } else {
+    *     root.Logger = logger();
+    * }
+    */
 }(this, function () {
 	"use strict";
 
